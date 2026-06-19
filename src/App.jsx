@@ -1,12 +1,15 @@
 import { useState } from "react";
 import "./App.scss";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <h1>Yo</h1>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }

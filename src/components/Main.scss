@@ -1,0 +1,66 @@
+.front {
+  min-height: calc(100vh - 70px);
+  background-image: url(../assets/Background_front.jpg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.front-title {
+  font-size: 80px;
+  color: white;
+  font-weight: 600;
+}
+
+.front-paragraph {
+  font-size: 24px;
+  color: white;
+}
+
+.middle {
+  background-color: black;
+  padding: 100px 80px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle-title {
+  font-size: 24px;
+}
+
+.middle-texts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.middle-stats-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 80px;
+  column-gap: 120px;
+  max-width: 1000px;
+}
+
+.middle-stats-title {
+  margin-bottom: 60px;
+}
+
+.middle-stats-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stats-number {
+  font-size: 48px;
+  font-weight: 600;
+}

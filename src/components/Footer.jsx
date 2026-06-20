@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.scss";
 
 function Footer() {
@@ -9,13 +10,13 @@ function Footer() {
         <div className="contacts">
           <ul className="contact-items">
             <li>
-              <a href="#">Technology</a>
+              <Link to="/">Technology</Link>
             </li>
             <li>
-              <a href="#">About us</a>
+              <Link to="/">About us</Link>
             </li>
             <li>
-              <a href="#">Career</a>
+              <Link to="/">Career</Link>
             </li>
           </ul>
         </div>

@@ -1,5 +1,39 @@
-.career-form {
+.career-window {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.career-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    
+    .career-main-title {
+        font-size: 32px;
+    }
+}
+.career-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.career-input {
+    padding: 12px 16px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    width: 250px;
+}
+.career-submit-btn {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+  }

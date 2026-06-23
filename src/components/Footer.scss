@@ -1,0 +1,33 @@
+.footer {
+  padding: 100px 80px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.footer-contact {
+  align-self: flex-start;
+}
+
+.footer-title {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.contact-items {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+}
+
+.copyright {
+  color: black;
+  align-self: center;
+  text-align: center;
+}

@@ -13,7 +13,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-title">
-          <p className="title">AUTONOM</p>
+          <Link className="title" to="/">AUTONOM</Link>
         </div>
         <div className="navbar-menu">
           <ul className="navbar-links">
@@ -21,7 +21,7 @@ function Navbar() {
               <Link to="/">Technology</Link>
             </li>
             <li>
-              <Link to="/">About us</Link>
+              <Link to="/AboutUs">About us</Link>
             </li>
             <li>
               <Link to="/Career">Career</Link>

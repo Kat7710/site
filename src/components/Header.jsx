@@ -21,10 +21,14 @@ function Navbar() {
               <Link to="/">Technology</Link>
             </li>
             <li>
+feature/start
+              <Link to="/aboutUs">About us</Link>
+
               <Link to="/AboutUs">About us</Link>
+ main
             </li>
             <li>
-              <Link to="/Career">Career</Link>
+              <Link to="/career">Career</Link>
             </li>
           </ul>
           <button className="navbar-btn" onClick={toggleModal}>

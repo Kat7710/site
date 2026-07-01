@@ -1,7 +1,7 @@
 import React from "react";
 import "./Career.scss";
 
-function CAreer() {
+function Career() {
   return (
     <>
       <div className="career-window">
@@ -37,4 +37,4 @@ function CAreer() {
   );
 }
 
-export default CAreer;
+export default Career;
